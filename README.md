@@ -1,4 +1,4 @@
-# simple-rotator
+# Simple jQuery Rotator
 Simple rotator (carousel, slider) of more that one elements in jQuery.
 
 ## Example usage
@@ -17,4 +17,8 @@ $('.carousel-items').simpleRotator({
 });
 ```
 
+## Other keywords
+The rotator can be also found as 'slider, carousel' etc.
 
+## Live example (look at the bottom of the page)
+https://goo.gl/YSLV2q
