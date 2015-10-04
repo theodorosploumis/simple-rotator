@@ -20,7 +20,7 @@ $.fn.simpleRotator = function(options) {
   var items_margin = Math.round(rotator_count * (item_width/settings.items_visible));
   var busy = false;
 
-  if (rotator_count > 1) {
+  if (rotator_count > items_visible) {
     // Make the wrapper to contain all the items in one row.
     this.css({
       'width': rotator_count * settings.item_width,
