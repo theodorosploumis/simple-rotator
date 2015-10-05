@@ -21,7 +21,7 @@ $.fn.simpleRotator = function(options) {
   if (rotator_count > settings.items_visible) {
     // Make the wrapper to contain all the items in one row
     this.css({
-      'width': rotator_count * settings.item_width,
+      'width': rotator_count * item_width,
       'height': item.outerHeight(true),
       'overflow': 'hidden',
       'clear': 'both',
